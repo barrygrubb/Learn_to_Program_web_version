@@ -8,10 +8,19 @@ Wall."
 
 num_bottles = 99
 
-while num_bottles > 1
+while num_bottles > 2
   puts num_bottles.to_s + " bottles of beer on the wall, " + num_bottles.to_s +
   " bottles of beer. You take one down and pass it around, " + (num_bottles-1)
   .to_s + " bottles of beer on the wall."
+  puts ""
+  num_bottles -= 1
+end
+
+if num_bottles == 2
+  puts num_bottles.to_s + " bottles of beer on the wall, " + num_bottles.to_s +
+  " bottles of beer. You take one down and pass it around, " + (num_bottles-1)
+  .to_s + " bottle of beer on the wall."
+  puts ""
   num_bottles -= 1
 end
 
