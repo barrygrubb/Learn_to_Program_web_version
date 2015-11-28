@@ -25,6 +25,5 @@ if num_bottles == 2
 end
 
 if num_bottles == 1
-  puts "1 bottle of beer on the wall, 1 bottle of beer. You take it down and
-  pass it around, no more bottles of beer on the wall."
+  puts "1 bottle of beer on the wall, 1 bottle of beer. You take it down and pass it around, no more bottles of beer on the wall."
 end
