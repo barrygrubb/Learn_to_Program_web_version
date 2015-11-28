@@ -9,7 +9,10 @@ end
 
 puts 'Come again soon!'
 
-# And that's a loop. (You may have noticed the blank line at the beginning of the output; it's from the first puts, before the first gets. How would you change the program to get rid of this first line. Test it! Did it work exactly like the program above, other than that first blank line?)
+And that's a loop. (You may have noticed the blank line at the beginning of the
+output; it's from the first puts, before the first gets. How would you change
+the program to get rid of this first line. Test it! Did it work exactly like the
+program above, other than that first blank line?)
 
 =end
 
